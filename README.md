@@ -10,7 +10,7 @@ To set up and deploy your CTF challenge, follow these steps:
 
 1. Place your CTF challenge files in the `src` folder. These files will be copied to `/challenge` in the container. Don't forget to update the flag as needed.
 
-2. Edit the "listen.sh" file to replace "./test" with your specific command that launches the CTF challenge.
+2. Edit the `listen.sh` file to replace `./test` with your specific command that launches the CTF challenge.
 
 3. Optionally, you can customize the environment by editing the "Dockerfile," "listen.sh" files.
 
